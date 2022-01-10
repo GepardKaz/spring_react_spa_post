@@ -2,7 +2,7 @@ INSERT INTO user (user_id, email, user_name, password_hash, provider, created_by
  ( 1, 'admin@mail.com', 'admin', '$2a$04$ItDBvcn41QncTbDL6Q2eNOHVQf5US/bdwQj/aczc2AGoGoEaX.ogi', 'local', 'system', now());
 
  INSERT INTO user (user_id, email, user_name, password_hash, provider, created_by, created_date) VALUES
- ( 2, 'user1@mail.com', 'user1','$2a$04$Qao0KqDim7VubPHV9x.oj.awaz0ArpPNlU7l0q18ZdsBXJn82dKPG', 'local', 'system', now());
+ ( 2, 'user1@mail.com', 'user1','$2a$04$ItDBvcn41QncTbDL6Q2eNOHVQf5US/bdwQj/aczc2AGoGoEaX.ogi', 'local', 'system', now());
 
 INSERT INTO authority (name) VALUES
  ('ROLE_ADMIN'), ('ROLE_USER' );
